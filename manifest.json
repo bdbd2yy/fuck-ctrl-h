@@ -1,0 +1,12 @@
+{
+  "manifest_version": 4,
+  "type": "extension",
+  "name": "取消 Ctrl+H 隐藏窗口",
+  "slug": "no_ctrl_h",
+  "description": "动态识别 QQ 内置隐藏快捷键，保留原始 Ctrl+H 输入，不做按键映射。",
+  "version": "2.0.0",
+  "authors": [{ "name": "bdbd2yy", "link": "https://github.com/bdbd2yy" }],
+  "platform": ["linux"],
+  "injects": { "main": "main.js" },
+  "repository": { "repo": "bdbd2yy/fuck-ctrl-h", "branch": "main" }
+}
